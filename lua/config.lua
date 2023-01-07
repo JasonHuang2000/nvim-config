@@ -1,6 +1,3 @@
--- Color scheme
-vim.cmd("colorscheme terafox")
-
 -- Tab and indent
 vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
