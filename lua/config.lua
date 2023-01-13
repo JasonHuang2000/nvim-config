@@ -1,9 +1,9 @@
 -- Tab and indent
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
 vim.opt.expandtab = true
 vim.opt.smarttab = true
-vim.bo.softtabstop = 2
+vim.bo.softtabstop = 4
 vim.opt.ai = true   -- auto indent
 vim.opt.si = true   -- smart indent
 
