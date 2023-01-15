@@ -37,6 +37,12 @@ return require('packer').startup(function(use)
     -- Window Navigation
     use 'christoomey/vim-tmux-navigator'
 
+    -- lualine: status line for nvim
+    use {
+        'nvim-lualine/lualine.nvim',
+        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    }
+
     -- LSP
     use {
         'VonHeikemen/lsp-zero.nvim',
