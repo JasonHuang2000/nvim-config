@@ -40,7 +40,7 @@ return require('packer').startup(function(use)
     -- lualine: status line for nvim
     use {
         'nvim-lualine/lualine.nvim',
-        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+        requires = { 'kyazdani42/nvim-web-devicons' }
     }
 
     -- LSP
