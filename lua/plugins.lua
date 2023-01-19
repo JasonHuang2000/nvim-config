@@ -40,8 +40,20 @@ return require('packer').startup(function(use)
     -- lualine: status line for nvim
     use {
         'nvim-lualine/lualine.nvim',
-        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+        requires = { 'kyazdani42/nvim-web-devicons' }
     }
+
+    -- nvim-surround
+    use {
+        "kylechui/nvim-surround",
+        tag = "*", -- Use for stability; omit to use `main` branch for the latest features
+        config = function()
+            require("nvim-surround").setup()
+        end
+    }
+
+    -- LaTeX for NeoVim
+    use 'lervag/vimtex'
 
     -- LSP
     use {

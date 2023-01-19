@@ -10,6 +10,7 @@ vim.opt.si = true   -- smart indent
 -- Line
 vim.opt.number = true
 vim.opt.ruler = true
+vim.opt.linebreak = true
 
 -- Search
 vim.opt.ignorecase = true
