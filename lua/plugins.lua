@@ -23,9 +23,6 @@ return require('packer').startup(function(use)
     -- Undo-tree
     use 'mbbill/undotree'
 
-    -- Fugitive: Git for Vim
-    use 'tpope/vim-fugitive'
-
     -- Comment for NeoVim
     use { 
         'numToStr/Comment.nvim',
@@ -54,6 +51,14 @@ return require('packer').startup(function(use)
 
     -- LaTeX for NeoVim
     use 'lervag/vimtex'
+
+    -- gitsigns.nvim: Git intergration for NeoVim
+    use {
+        'lewis6991/gitsigns.nvim',
+        config = function()
+            require('gitsigns').setup()
+        end
+    }
 
     -- LSP
     use {
