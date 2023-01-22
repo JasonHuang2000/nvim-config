@@ -15,7 +15,7 @@ vim.opt.linebreak = true
 -- Search
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
-vim.opt.hlsearch = true
+vim.opt.hlsearch = false
 vim.opt.incsearch = true
 
 -- Disable error sound
