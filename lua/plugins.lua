@@ -60,6 +60,14 @@ return require('packer').startup(function(use)
         end
     }
 
+    -- nvim-tree: file explorer for NeoVim
+    use {
+        'nvim-tree/nvim-tree.lua',
+        requires = {
+            'nvim-tree/nvim-web-devicons', -- optional, for file icons
+        },
+    }
+
     -- LSP
     use {
         'VonHeikemen/lsp-zero.nvim',

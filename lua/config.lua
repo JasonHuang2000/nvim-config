@@ -1,3 +1,7 @@
+-- Disable netrw for nvim-tree
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
 -- Tab and indent
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
@@ -32,3 +36,4 @@ vim.g.noswapfile = true
 -- Other
 vim.g.foldcolumn = 5
 vim.opt.scrolloff = 8
+vim.opt.termguicolors = true
