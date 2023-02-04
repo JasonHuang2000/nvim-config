@@ -15,6 +15,7 @@ vim.opt.si = true   -- smart indent
 vim.opt.number = true
 vim.opt.ruler = true
 vim.opt.linebreak = true
+vim.opt.wrap = false
 
 -- Search
 vim.opt.ignorecase = true
